@@ -45,10 +45,10 @@ public class JouetManager {
 	}
 
 	/**
-	 * Ajoute un jouet à la liste de jouet d'un enfant
+	 * Ajoute un jouet ï¿½ la liste de jouet d'un enfant
 	 * 
-	 * @param nomJouet nom du jouet à ajouter à l'enfant
-	 * @param enfant   enfant à qui on veut ajouter un jouet
+	 * @param nomJouet nom du jouet ï¿½ ajouter ï¿½ l'enfant
+	 * @param enfant   enfant ï¿½ qui on veut ajouter un jouet
 	 * @throws JouetManagerException 
 	 */
 	public static String addJouetEnfant(String nomJouet, Enfant enfant) throws JouetManagerException {
@@ -62,10 +62,10 @@ public class JouetManager {
 		for (Jouet jouetAjoute : lstJouetFctAgeEfant) {
 			if (jouetAjoute.getNom().equals(nomJouet)) {
 				enfant.getListeJouet().add(jouetAjoute);
-				message = "Ton jouet a été ajouter à ta liste";
+				message = "Ton jouet a Ã©tÃ© ajouter Ã  ta liste";
 				break;
 			} else {
-				message = "Tu n'es pas autorisé à ajouter ce jouet !!";
+				message = "Tu n'es pas autorisÃ© Ã  ajouter ce jouet !!";
 			}
 		}
 

@@ -3,6 +3,7 @@ package fr.epsi.poec.pereNoel.ihm;
 import fr.epsi.poec.pereNoel.bll.JouetManager;
 import fr.epsi.poec.pereNoel.bll.JouetManagerException;
 import fr.epsi.poec.pereNoel.bo.Enfant;
+import fr.epsi.poec.pereNoel.bo.Jouet;
 
 public class DemoPereNoel {
 
@@ -10,9 +11,9 @@ public class DemoPereNoel {
 
 		// Ajouter des jouets
 
-		JouetManager.addJouetCatalogue("Poupée", 15, 2, 10);
+		JouetManager.addJouetCatalogue("PoupÃ©e", 15, 2, 10);
 		JouetManager.addJouetCatalogue("Camion", 15, 3, 6);
-		JouetManager.addJouetCatalogue("Vélo", 50, 7, 9);
+		JouetManager.addJouetCatalogue("VÃ©lo", 50, 7, 9);
 		JouetManager.addJouetCatalogue("Jeu Mario", 15, 5, 77);
 		JouetManager.addJouetCatalogue("Memori", 5, 4, 77);
 
@@ -22,52 +23,28 @@ public class DemoPereNoel {
 		// Filtrer sur les jouets de son age
 //		System.out.println(JouetManager.trieJouetDeAgeEnfant(jean.getAge()).toString());*
 //		System.out.println(jean.getListeJouet().size());
-		try {
-			System.out.println(JouetManager.addJouetEnfant("Camion", jean));;
-		} catch (JouetManagerException e) {
-			System.out.println("Tu as déjà 3 jouets");
-		}
-		try {
-			System.out.println(JouetManager.addJouetEnfant("Camion", jean));
-		} catch (JouetManagerException e) {
-			System.out.println("Tu as déjà 3 jouets");
-		}
-		try {
-			System.out.println(JouetManager.addJouetEnfant("Poupée", jean));
-		} catch (JouetManagerException e) {
-			System.out.println("Tu as déjà 3 jouets");
-		}
-		
-		try {
-			System.out.println(JouetManager.addJouetEnfant("Vélo", jean));
-		} catch (JouetManagerException e) {
-			System.out.println("Tu as déjà 3 jouets");
-		}
-		
-		try {
-			System.out.println(JouetManager.addJouetEnfant("Jeu Mario", jean));
-		} catch (JouetManagerException e) {
-			System.out.println("Tu as déjà 3 jouets");
-		}
-		
-		try {
-			System.out.println(JouetManager.addJouetEnfant("Memori", jean));
-		} catch (Exception e) {
-			System.out.println("Tu as déjà 3 jouets");
-		}
-		
-		try {
-			System.out.println(JouetManager.addJouetEnfant("Camion", jean));
-		} catch (Exception e) {
-			System.out.println("Tu as déjà 3 jouets");
-		}
-		
+		addToEnfant("Camion", jean);
+		addToEnfant("Camion", jean);
+		addToEnfant("PoupÃ©e", jean);
+		addToEnfant("VÃ©lo", jean);
+		addToEnfant("Jeu Mario", jean);
+		addToEnfant("Memori", jean);
+		addToEnfant("Camion", jean);
+
 		
 		System.out.println(jean.getListeJouet().size());
 
 		// JouetManager.
 		// JouetManager.addJouetListEnfant(JouetManager.)
 
+	}
+
+	private static void addToEnfant(String  nomJouet, Enfant enfant) {
+		try {
+			System.out.println(JouetManager.addJouetEnfant( nomJouet, enfant));;
+		} catch (JouetManagerException e) {
+			System.out.println("Tu as dÃ©jÃ  3 jouets");
+		}
 	}
 
 

@@ -9,10 +9,7 @@ public class JouetManagerException extends Exception{
 	
 	public JouetManagerException() {
 		
-		System.err.println("Je suis dans l'exception JouetManagerException");
+		//System.err.println("Je suis dans l'exception JouetManagerException");
 		
 	}
-	
-	
-
 }
