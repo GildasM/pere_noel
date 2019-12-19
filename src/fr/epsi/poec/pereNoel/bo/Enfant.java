@@ -48,7 +48,9 @@ public class Enfant {
 		this.listeJouet = listeJouet;
 	}
 
-
+ public void  name() {
+	 System.out.println("Essaisgit");
+}
 	
 	
 	
