@@ -17,6 +17,7 @@ public class Jouet {
 
 
 	public Jouet() {
+		//modif dans git pour conflit
 		// TODO Auto-generated constructor stub
 	}
 	
