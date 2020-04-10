@@ -16,7 +16,8 @@ public class DemoPereNoel {
 		JouetManager.addJouetCatalogue("Vélo", 50, 7, 9);
 		JouetManager.addJouetCatalogue("Jeu Mario", 15, 5, 77);
 		JouetManager.addJouetCatalogue("Memori", 5, 4, 77);
-
+		JouetManager.addJouetCatalogue("Strick", 4, 2, 15);
+		
 //		System.out.println(JouetManager.getLstJouet());
 		Enfant jean = new Enfant("Jean", 5);
 
