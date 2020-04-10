@@ -10,6 +10,8 @@ public class DemoPereNoel {
 	public static void main(String[] args) {
 
 		// Ajouter des jouets
+		//Ajoute commentaire dans éclispe
+		//modif dans git pour merge
 
 		JouetManager.addJouetCatalogue("Poupée", 15, 2, 10);
 		JouetManager.addJouetCatalogue("Camion", 15, 3, 6);
