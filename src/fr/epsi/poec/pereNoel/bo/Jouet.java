@@ -17,16 +17,14 @@ public class Jouet {
 
 
 	public Jouet() {
-		//modif dans eclipse pour conflit
-		//modif dans git pour conflit
 		// TODO Auto-generated constructor stub
 	}
 	
 	public Jouet(String nom, int prix, int ageMin, int ageMax) {
-		this.nom= "modif dans eclipse pour conflit";
+		this.nom= nom;
 		this.prix = prix;
 		this.ageMin = ageMin;
-		this.ageMax = 100;
+		this.ageMax = ageMax;
 		
 	}
 
