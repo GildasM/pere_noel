@@ -17,7 +17,6 @@ public class Jouet {
 
 
 	public Jouet() {
-		//ajout dans git pour merge
 		// TODO Auto-generated constructor stub
 	}
 	
