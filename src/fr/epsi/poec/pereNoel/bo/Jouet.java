@@ -1,7 +1,7 @@
 package fr.epsi.poec.pereNoel.bo;
 
 /**
- * Classe Décrivant un jouet en fonction du prix, age
+ * Classe DÃ©crivant un jouet en fonction du prix, age
  * 
  * @author johan
  *
@@ -17,6 +17,7 @@ public class Jouet {
 
 
 	public Jouet() {
+		//ajout dans git pour merge
 		// TODO Auto-generated constructor stub
 	}
 	
