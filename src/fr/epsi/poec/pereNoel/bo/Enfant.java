@@ -9,8 +9,6 @@ public class Enfant {
 	private  List<Jouet> listeJouet;
 	
 	public Enfant() {
-		//dans eclipse
-		//dans git
 		// TODO Auto-generated constructor stub
 	}
 

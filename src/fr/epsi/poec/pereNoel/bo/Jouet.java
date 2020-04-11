@@ -17,8 +17,6 @@ public class Jouet {
 
 
 	public Jouet() {
-		//dans eclipse
-		//dans git
 		// TODO Auto-generated constructor stub
 	}
 	

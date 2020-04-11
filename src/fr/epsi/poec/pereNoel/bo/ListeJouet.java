@@ -4,7 +4,5 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListeJouet {
-	//dans git
 	private List ListeJouet = new ArrayList();
-	//dans git
 }
