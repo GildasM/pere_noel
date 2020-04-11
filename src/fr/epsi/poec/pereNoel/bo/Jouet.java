@@ -8,7 +8,7 @@ package fr.epsi.poec.pereNoel.bo;
  */
 
 public class Jouet {
-
+	
 	
 	private String nom;
 	private int prix;
@@ -17,6 +17,8 @@ public class Jouet {
 
 
 	public Jouet() {
+		//dans eclipse
+		//dans git
 		// TODO Auto-generated constructor stub
 	}
 	
