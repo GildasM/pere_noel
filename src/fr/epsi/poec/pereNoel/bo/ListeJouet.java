@@ -6,5 +6,5 @@ import java.util.List;
 public class ListeJouet {
 
 	private List ListeJouet = new ArrayList();
-	
+	//ajout dans eclipse
 }
