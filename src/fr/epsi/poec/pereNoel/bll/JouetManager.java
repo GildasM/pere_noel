@@ -7,7 +7,7 @@ import fr.epsi.poec.pereNoel.bo.Enfant;
 import fr.epsi.poec.pereNoel.bo.Jouet;
 
 public class JouetManager {
-
+	//modif pour merge conflit
 	private static List<Jouet> lstJouet = new ArrayList<Jouet>();
 
 	/**
