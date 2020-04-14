@@ -8,7 +8,7 @@ import fr.epsi.poec.pereNoel.bo.Jouet;
 
 public class JouetManager {
 	private static List<Jouet> lstJouet = new ArrayList<Jouet>();
-	//ajout dans git
+	
 
 	/**
 	 * Ajoute un jouet au catalogue
